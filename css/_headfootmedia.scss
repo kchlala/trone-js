@@ -1,0 +1,176 @@
+@media (max-width: 992px) {
+    body{
+        &.hidebody{
+            overflow: hidden;
+            // .sect-1{
+            //     opacity: 0.5;
+            // }      
+        }
+    
+   #header{
+     padding: 10px 0px;
+    background-color: rgb(16, 16, 16);
+    position: relative;
+       .top-header{
+           display: block;
+       }
+       .bottom-header{          
+           width: 95%;      
+           margin: auto;
+           .quat{
+               width: 70%;
+               img{
+                   width: 110px;
+               }
+           }
+
+           .listing {
+            background: white;
+            position:absolute;
+            overflow-y: scroll ;
+            z-index: 1000;
+            left: -100%;
+            top: 114px;
+            width: 75%;  
+            height: 85vh;
+            flex-direction: column;
+            transition: all 400ms;
+            li{
+                overflow: hidden;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        
+        .main-li {
+            width: 100%;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 14px 20px;    
+            .drop-ul{
+                overflow: hidden;
+                display: none;
+                width: 100%;
+                padding: 0px 20px;
+                .drop-li{
+                        padding: 15px 20px;
+                        width: 100%;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.1);               
+                .right{
+                    position: relative;
+                    float: right;
+                    color: black;
+                    transition: ease-in-out .3s;
+                    &.actived {
+                        transform: rotate(90deg) !important;
+                        color: #ff3837;
+                    }            
+                }
+            }
+            #drop-a{
+                display: inline-block;
+                &.actived {
+                    color: #ff3837;
+                }
+            }
+                .drop-ul-2{
+                    overflow: hidden;
+                    display: none;
+                    width: 100%;
+                    padding: 5px 20px;
+
+                    .drop-li-2{
+                        padding: 10px ;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.1);               
+
+                       a{
+                         color: black;
+                       }
+                    }
+                }
+            }
+            .down{
+                position: relative;
+                float: right;
+                color: black;
+                transition: ease-in-out .3s;
+                transform: rotate(-90deg) ;
+                &.actived {
+                    transform: rotate(1deg) !important;
+                    color: #ff3837;
+                }
+            }
+        
+            #main-a{
+                display: inline-block;
+                transition: .4s ease-in-out;
+                &.actived {
+
+                    color: #ff3837;
+                }
+            }
+         
+            .red-line::after{
+                display: none;
+            }
+        }
+       
+        &.nav-active {
+            left: 0%;
+        }
+    }
+           .search{
+               width: 30%;
+               .se{
+                   margin-left: 20px;
+               }
+               .ham{
+         display: block;
+               }
+           }
+       }
+   }
+}
+}
+
+@media (max-width: 992px){
+    #footer{
+        .cnt{
+            width: 90%;
+            margin: auto;
+flex-wrap: wrap;
+        .about-us{
+            width: 100%;
+        }
+        .mylist{
+            display: none;
+        }
+        .news{
+            margin-top: 30px;
+            width: 100%;
+        }
+        .question{
+            width: 100%;
+        }
+    }
+}
+
+}
+
+@media(min-width:992px) and (max-width:1410px) {
+#header{
+.bottom-header{
+   .quat{
+       width: 20%;
+       margin-right: 3%;
+   }
+   .listing{
+       width: 73%;
+   }
+   .search{
+    width: 4%;
+   }
+}
+}
+}
+
