@@ -1,0 +1,107 @@
+@media(max-width:992px){
+    .general-parts-2{
+
+.car-2{
+    width: 100%;
+
+      
+  
+      #fullscreen-swiper .swiper-slide img {
+         object-fit: contain;
+        max-height: 88%;
+      }
+    #thumbnail-slider{
+        display: none;
+    }
+  .little-gray{
+      margin-bottom: 30px;
+      position: relative;
+      .audi-e-trone{
+          width: 65%;
+          h3{
+              font-size: 19px;
+          }
+      }
+      .little-icons{
+          display:unset;  
+          #pdf{
+              position: absolute;
+              top: 40px;
+              right: 20px;
+          }  
+          .one-icon{
+              width: 100%;
+          }
+      }
+      .rental{
+         &#rent2{
+             margin-top: 20px;
+         }
+          justify-content: unset;
+          h5{
+              width: 29%;
+              white-space: nowrap;
+          }
+          p{
+              white-space: nowrap;
+              margin: 0px 22px;
+          }
+      }
+  }
+}
+.part-2{
+    width: 100%;
+  
+    .part-2-1{
+        height: 67em;
+    }
+    .part-3{
+      
+        height: 93em;
+        .many-cars{
+            .car-blocks{
+                height: 230px ;
+                width: 300px;
+            }
+        }
+    }
+}
+}
+
+}
+
+
+
+@media(min-width:992px) and (max-width:1300px) {
+
+    .general-parts-2{
+         width: 74%;
+         margin: auto;
+        .car-2{
+            width: 100%;
+       
+        
+        }
+        .part-2{
+            width: 100%;
+          
+            .part-2-1{
+                height: 67em;
+            }
+            .part-3{
+              
+                height: 93em;
+                .many-cars{
+                    .car-blocks{
+                        height: 230px ;
+                        width: 300px;
+                    }
+                }
+            }
+        }
+        }
+
+
+
+
+}
